@@ -47,7 +47,7 @@ function linkToMVRS($url, $aspect, $playbacktype, $limits) {
     }
     $result = base64_encode(json_encode($map, JSON_FORCE_OBJECT));
     $result = str_replace("=","", $result);
-    return "http://webvr.mobilevrstation.com/j/".$result;
+    return "https://webvr.mobilevrstation.com/j/".$result;
 }
 
 // Examples
